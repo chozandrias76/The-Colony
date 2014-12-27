@@ -1,0 +1,88 @@
+fileFormatVersion: 2
+guid: 16dcce4f373a58544bb79fe2cac5e4ae
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: DoorBottom
+    100002: DoorEdge
+    100004: DoorTop
+    100006: //RootNode
+    100008: Bottom
+    100010: Edge
+    100012: Top
+    400000: DoorBottom
+    400002: DoorEdge
+    400004: DoorTop
+    400006: //RootNode
+    400008: Bottom
+    400010: Edge
+    400012: Top
+    2300000: DoorBottom
+    2300002: DoorEdge
+    2300004: DoorTop
+    2300006: Bottom
+    2300008: Edge
+    2300010: Top
+    3300000: DoorBottom
+    3300002: DoorEdge
+    3300004: DoorTop
+    3300006: Bottom
+    3300008: Edge
+    3300010: Top
+    4300000: DoorEdge
+    4300002: DoorBottom
+    4300004: DoorTop
+    4300006: Edge
+    4300008: Bottom
+    4300010: Top
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

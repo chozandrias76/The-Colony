@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{985A9050-A2A4-6214-F556-02705C95D617}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_0;UNITY_4_0;UNITY_STANDALONE_WIN;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Addons\CSI\CSharpInterpreter.cs" />
+     <Compile Include="Assets\Scripts\Addons\CSI\interpreter.cs" />
+     <Compile Include="Assets\Scripts\Addons\CSI\prepro.cs" />
+     <Compile Include="Assets\Scripts\Addons\CSMessenger Extended\Callback.cs" />
+     <Compile Include="Assets\Scripts\Addons\CSMessenger Extended\Messenger.cs" />
+     <Compile Include="Assets\Scripts\Addons\ComboBox.cs" />
+     <Compile Include="Assets\Scripts\Addons\DetectLeaks.cs" />
+     <Compile Include="Assets\Scripts\Addons\JSONFiles.cs" />
+     <Compile Include="Assets\Scripts\Addons\MeshOffset.cs" />
+     <Compile Include="Assets\Scripts\Addons\MirrorReflection.cs" />
+     <Compile Include="Assets\Scripts\Addons\Popup.cs" />
+     <Compile Include="Assets\Scripts\Addons\SQLite.cs" />
+     <Compile Include="Assets\Scripts\Addons\XMLCreate.cs" />
+     <Compile Include="Assets\Scripts\Addons\int2.cs" />
+     <Compile Include="Assets\Scripts\Addons\int3.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\AdvancedMovement.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\Base Classes\Attributes.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\Base Classes\CharacterPhysicalAttributes.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\Base Classes\CharacterVitals.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\Base Classes\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\Base Classes\StoredPlayerPrefs.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\BaseMob.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\Character Roles\Assistant.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\Character Roles\BaseJobs.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\Character Roles\Captain.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\CharacterMotor.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\DragMouseOrbit.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\EnemyAI.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\EnemyAttack.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\EnemyHealth.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\FPSInputController.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\GeoTools.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\Grenade.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\PlayerAttack.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\PlayerCharacter.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\PlayerInput.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\PlayerLook.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\Targetting.cs" />
+     <Compile Include="Assets\Scripts\GUI\FontSheetGetter.cs" />
+     <Compile Include="Assets\Scripts\GUI\MainMenuUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\ServerDebugUI.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\Chemistry Systems\Chemical.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\Chemistry Systems\ChemistryRecipes.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\Game Databases\EngineeringData.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\Game Databases\MedicalData.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\Game Databases\MiningData.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\Game Databases\QMData.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\Game Databases\SecurityData.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\Game Databases\StationData.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\PlayerTracker.cs" />
+     <Compile Include="Assets\Scripts\Game Logic\SecurityStatus.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\BuildManager.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\ChatManager.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\CreatePowerGrid.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\GameMap.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\GameSettings.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\LevelEditor.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\LoadMap.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\MCBlob.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\MCubes.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\OctTree.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\PangoWorld.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\PopulateWorldObjects.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\CellData.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\DamageInfo.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\DoorData.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\FloorData.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Gases\C02.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Gases\Chlorine.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Gases\Hydrogen.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Gases\Nitrogen.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Gases\Oxygen.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Gases\Plasma Gas.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\InteractionInfo.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Liquids\Ethanol.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Liquids\Mercury.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Liquids\Plasma Liquid.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Liquids\Sulphuric Acid.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Liquids\Water.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\ObjectData.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\PowerData.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Virons\Alien Parasite.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Virons\BaseDisease.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Virons\Brain Rot.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Virons\Cold 9.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Virons\Flu.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Virons\GBS.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Virons\Jungle Fever.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Virons\Magnitis.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Virons\P Throat.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Virons\Rhinovirus.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Virons\Robot Trans.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Virons\S Flu.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Virons\Space Retro.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Virons\Symptoms.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Virons\Wizarditus.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\Virons\Xeno Trans.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\Propagation Classes\WallData.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\SimplexNoise.cs" />
+     <Compile Include="Assets\Scripts\Level Generation\World.cs" />
+     <Compile Include="Assets\Scripts\Networking\CreatePlayerCellData.cs" />
+     <Compile Include="Assets\Scripts\Networking\NetworkManager.cs" />
+     <Compile Include="Assets\Scripts\Objects\ConsoleScreen.cs" />
+     <Compile Include="Assets\Scripts\Objects\Heavy Electronics\Computers\BaseTerminal.cs" />
+     <Compile Include="Assets\Scripts\Objects\Heavy Electronics\Computers\BotanyTerminal.cs" />
+     <Compile Include="Assets\Scripts\Objects\Heavy Electronics\Computers\CTTerminal.cs" />
+     <Compile Include="Assets\Scripts\Objects\Heavy Electronics\Computers\CaptainTerminal.cs" />
+     <Compile Include="Assets\Scripts\Objects\Heavy Electronics\Computers\ComputerTerminal.cs" />
+     <Compile Include="Assets\Scripts\Objects\Heavy Electronics\Computers\EngineeringTerminal.cs" />
+     <Compile Include="Assets\Scripts\Objects\Heavy Electronics\Computers\GenericTerminal.cs" />
+     <Compile Include="Assets\Scripts\Objects\Heavy Electronics\Computers\MedicalTerminal.cs" />
+     <Compile Include="Assets\Scripts\Objects\Heavy Electronics\Computers\QMTerminal.cs" />
+     <Compile Include="Assets\Scripts\Objects\Heavy Electronics\Computers\ScienceTerminal.cs" />
+     <Compile Include="Assets\Scripts\Objects\Heavy Electronics\Computers\ShuttleTerminal.cs" />
+     <Compile Include="Assets\Scripts\Objects\Heavy Electronics\Medical\CryoChamber.cs" />
+     <Compile Include="Assets\Scripts\Objects\Heavy Electronics\Medical\SurgeryTable.cs" />
+     <Compile Include="Assets\Scripts\Objects\HeavyElectronic.cs" />
+     <Compile Include="Assets\Scripts\Objects\IRecipeStructure.cs" />
+     <Compile Include="Assets\Scripts\Objects\Item.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\BlankPaper.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Crafting Items\MetalSheet.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Crafting Items\Mined Items\IronOre.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\QM Requisition Forms\QMRequisitionForms.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\QM Requisition Forms\SampleForm.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\MiningPick.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\ATCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\AssistantCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\BartenderCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\BotanyCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\CECard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\CMOCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\CaptainCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\ChaplainCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\ChefCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\ChemistCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\ClownCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\DetectiveCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\EngineerCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\GeneticstCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\HOPCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\HOSCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\JanitorCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\LawyerCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\LibrarianCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\MDCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\MimeCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\MinerCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\PDACard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\QMCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\RDCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\RoboticistCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\ScientistCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\SecurityCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\VirologistCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA Cards\WardenCard.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Tools\PDA.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Hand Items\Weapons\TaserGun.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\HandItems.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\IDBadge.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Paper.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Pen.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Structure\MetalMesh.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\Wearable Items\Torso Items\BasicUniform.cs" />
+     <Compile Include="Assets\Scripts\Objects\Items\WearableItems.cs" />
+     <Compile Include="Assets\Scripts\Objects\Projectile.cs" />
+     <Compile Include="Assets\Scripts\Objects\RecipeStructure.cs" />
+     <Compile Include="Assets\Scripts\Objects\Turret.cs" />
+     <Compile Include="Assets\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+     <Compile Include="Assets\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+     <Compile Include="Assets\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+     <None Include="Assets\Plugins\0000 ats V2 package\readme_treeBarkShader.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\obj\Debug\The-Colony-Proj VS2012.csproj.FileListAbsolute.txt" />
+     <None Include="Assets\Plugins\0000 ats V2 package\readme_grassShader.txt" />
+     <None Include="Assets\obj\Debug\The-Colony-Proj.csproj.FileListAbsolute.txt" />
+     <None Include="Assets\Plugins\Dark Future\ReadMe.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Resources\fontmetrics.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Resources\uLinkPrefs.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Plugins\0000 ats V2 package\atsV2 billboardShader package\TreeCreatorLeavesRendertex.shader" />
+     <None Include="Assets\Plugins\0000 ats V2 package\atsV2 billboardShader package\TreeCreatorBarkRendertex.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Plugins\uLink\Assembly\uLink.xml" />
+     <None Include="Assets\Shaders\triax_diffuse_wrap.shader" />
+     <None Include="Assets\Plugins\0000 ats V2 package\ats pathShader Package\Shader\ats Road Path bumped diffuse alphatest.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Scripts\Addons\CSI\CSharpInterpreter_Include.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Resources\Metrics.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Plugins\0000 ats V2 package\ats vertexLitShader Package\Shader\atsv2 vertexlit.shader" />
+     <None Include="Assets\bin\Debug\uLink.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Plugins\0000 ats V2 package\atsV2 grassShader Package\atsV2WavingGrass.shader" />
+     <None Include="Assets\Shaders\triax_diffuse.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Plugins\0000 ats V2 package\readme_billboardShader.txt" />
+     <None Include="Assets\Plugins\0000 ats V2 package\atsV2 billboardShader package\Tree.cginc" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Plugins\0000 ats V2 package\readme_terrainBumpShader.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\RAIN\Editor\ScriptTemplates\BehaviorTreeTemplate.xml" />
+     <None Include="Assets\Shaders\DiffuseColorChanging.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Plugins\0000 ats V2 package\atsV2 UnityTerrainBump Package\TerrainReplacementAtsV2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Shaders\StandardAdditive.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Shaders\MirrorReflection.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+     <None Include="Assets\Plugins\0000 ats V2 package\readme_vertexLitShader.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\uCollab\readme.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="JsonFx.Json">
+ <HintPath>Assets\bin\Debug\JsonFx.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="RAINIndie">
+ <HintPath>Assets\bin\Debug\RAINIndie.dll</HintPath>
+ </Reference>
+ <Reference Include="Recast">
+ <HintPath>Assets\bin\Debug\Recast.dll</HintPath>
+ </Reference>
+ <Reference Include="The-Colony-Proj">
+ <HintPath>Assets\obj\Debug\The-Colony-Proj.dll</HintPath>
+ </Reference>
+ <Reference Include="The-Colony-Server">
+ <HintPath>Assets\bin\Debug\The-Colony-Server.dll</HintPath>
+ </Reference>
+ <Reference Include="uCollab">
+ <HintPath>Assets\bin\Debug\uCollab.dll</HintPath>
+ </Reference>
+ <Reference Include="uLink">
+ <HintPath>Assets\bin\Debug\uLink.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{13A1D325-E5CA-7F4D-4548-5A2DADBACE46}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,24 @@
+6/6/2013 11:22:42 AM, EDITOR uCollab process marker file not found. This is OK.
+6/6/2013 11:22:59 AM, EDITOR Stop called (already stopped)
+6/6/2013 11:23:05 AM, EDITOR User pressed button import
+6/6/2013 11:23:05 AM, EDITOR Import will now be started in the uCollab process
+6/6/2013 11:23:05, uCollab process started.
+6/6/2013 11:23:05, logFileName = .uCollab\uCollabLog.txt
+6/6/2013 11:23:05, unityEditorVersionNr = 4
+6/6/2013 11:23:05, masterFolder = D:/Users/Colin/Documents/My Files/Home Projects/The Colony/The Colony Server
+6/6/2013 11:23:05, slaveFolder = D:\Users\Colin\Documents\My Files\Home Projects\The Colony\The Colony Server
+6/6/2013 11:23:05, Parent pid (Unity Editor) = 3752
+6/6/2013 11:23:05, My own pid is = 424
+6/6/2013 11:23:05, 
+Import started
+6/6/2013 11:23:06, imported: .\Assets\JsonFx.Json.dll
+6/6/2013 11:23:06, import interrrupted by exception
+6/6/2013 11:23:06, System.IO.IOException: The process cannot access the file 'D:\Users\Colin\Documents\My Files\Home Projects\The Colony\The Colony Server\.\Assets\JsonFx.Json.dll' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   at #=qPt9YGWvB4YSFomBCb0nwYTD$nzNscniKhWquugFZnYE=.#=qSYjBFXEHRywq2GZ9mRo6v$_PZcV4ZYUG98c_L4r_dcg=(DirectoryInfo #=qaYyeWzho7NyFugOq_kj0Bw==, Dictionary`2 #=q7OU1jaEaldbZGzHkCTirdg==)
+6/6/2013 11:23:06, Fatal error: System.IO.IOException: The process cannot access the file 'D:\Users\Colin\Documents\My Files\Home Projects\The Colony\The Colony Server\.\Assets\JsonFx.Json.dll' because it is being used by another process.
+   at #=qPt9YGWvB4YSFomBCb0nwYTD$nzNscniKhWquugFZnYE=.#=qSYjBFXEHRywq2GZ9mRo6v$_PZcV4ZYUG98c_L4r_dcg=(DirectoryInfo #=qaYyeWzho7NyFugOq_kj0Bw==, Dictionary`2 #=q7OU1jaEaldbZGzHkCTirdg==)
+   at #=qPt9YGWvB4YSFomBCb0nwYTD$nzNscniKhWquugFZnYE=.#=qoauNT6x1TACe3PHfEDmRjg==(String #=qCkV02dU45wDGySdptqR22Q==)
+   at #=qun_kLoi9bG$zz2I$k3tx53ioSCyT1J0DZYgEuI1eLP8=.#=q_kp3i4GRLg0ayoREDfclPPtBmSWYFmeswyHEzybcMko=(String #=qnyoaXVAQOyo54aD91a34hQ==)
+   at #=qun_kLoi9bG$zz2I$k3tx53ioSCyT1J0DZYgEuI1eLP8=.#=q5dipXNzztuHmxg97057jbQ==(String[] #=qFqDzzpCIV5bBhtGD5DrH$A==)

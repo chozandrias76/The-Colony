@@ -1,0 +1,40 @@
+6/2/2013 7:02:50 PM, EDITOR uCollab process marker file not found. This is OK.
+6/2/2013 7:03:14 PM, EDITOR Stop called (already stopped)
+6/2/2013 7:03:20 PM, EDITOR User pressed button import
+6/2/2013 7:03:20 PM, EDITOR Import will now be started in the uCollab process
+6/2/2013 7:17:11 PM, EDITOR uCollab process marker file not found. This is OK.
+6/2/2013 7:17:22 PM, EDITOR Stop called (already stopped)
+6/2/2013 7:17:23 PM, EDITOR User pressed button import
+6/2/2013 7:17:23 PM, EDITOR Import will now be started in the uCollab process
+6/2/2013 7:17:57 PM, EDITOR Stop called (already stopped)
+6/2/2013 7:18:35 PM, EDITOR Stop called (already stopped)
+6/2/2013 10:01:26 PM, EDITOR uCollab process marker file not found. This is OK.
+6/2/2013 10:01:35 PM, EDITOR Stop called (already stopped)
+6/2/2013 10:01:48 PM, EDITOR User pressed button import
+6/2/2013 10:01:48 PM, EDITOR Import will now be started in the uCollab process
+6/2/2013 10:38:01 PM, EDITOR Stop called (already stopped)
+6/3/2013 3:14:18 PM, EDITOR uCollab process marker file not found. This is OK.
+6/3/2013 3:14:47 PM, EDITOR Stop called (already stopped)
+6/3/2013 3:14:51 PM, EDITOR User pressed button import
+6/3/2013 3:14:51 PM, EDITOR Import will now be started in the uCollab process
+6/3/2013 15:14:51, uCollab process started.
+6/3/2013 15:14:51, logFileName = .uCollab\uCollabLog.txt
+6/3/2013 15:14:51, unityEditorVersionNr = 4
+6/3/2013 15:14:51, masterFolder = D:/Users/Colin/Documents/My Files/Home Projects/The Colony
+6/3/2013 15:14:51, slaveFolder = D:\Users\Colin\Documents\My Files\Home Projects\The Colony
+6/3/2013 15:14:51, Parent pid (Unity Editor) = 3936
+6/3/2013 15:14:51, My own pid is = 2920
+6/3/2013 15:14:51, 
+Import started
+6/3/2013 15:14:52, imported: .\Assets\Editor.meta
+6/3/2013 15:14:52, import interrrupted by exception
+6/3/2013 15:14:52, System.IO.IOException: The process cannot access the file 'D:\Users\Colin\Documents\My Files\Home Projects\The Colony\.\Assets\Editor.meta' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   at #=qPt9YGWvB4YSFomBCb0nwYTD$nzNscniKhWquugFZnYE=.#=qSYjBFXEHRywq2GZ9mRo6v$_PZcV4ZYUG98c_L4r_dcg=(DirectoryInfo #=qaYyeWzho7NyFugOq_kj0Bw==, Dictionary`2 #=q7OU1jaEaldbZGzHkCTirdg==)
+6/3/2013 15:14:52, Fatal error: System.IO.IOException: The process cannot access the file 'D:\Users\Colin\Documents\My Files\Home Projects\The Colony\.\Assets\Editor.meta' because it is being used by another process.
+   at #=qPt9YGWvB4YSFomBCb0nwYTD$nzNscniKhWquugFZnYE=.#=qSYjBFXEHRywq2GZ9mRo6v$_PZcV4ZYUG98c_L4r_dcg=(DirectoryInfo #=qaYyeWzho7NyFugOq_kj0Bw==, Dictionary`2 #=q7OU1jaEaldbZGzHkCTirdg==)
+   at #=qPt9YGWvB4YSFomBCb0nwYTD$nzNscniKhWquugFZnYE=.#=qoauNT6x1TACe3PHfEDmRjg==(String #=qCkV02dU45wDGySdptqR22Q==)
+   at #=qun_kLoi9bG$zz2I$k3tx53ioSCyT1J0DZYgEuI1eLP8=.#=q_kp3i4GRLg0ayoREDfclPPtBmSWYFmeswyHEzybcMko=(String #=qnyoaXVAQOyo54aD91a34hQ==)
+   at #=qun_kLoi9bG$zz2I$k3tx53ioSCyT1J0DZYgEuI1eLP8=.#=q5dipXNzztuHmxg97057jbQ==(String[] #=qFqDzzpCIV5bBhtGD5DrH$A==)
+6/3/2013 3:24:05 PM, EDITOR uCollab process not found, deleting pid marker file. Can't find process with ID 2920

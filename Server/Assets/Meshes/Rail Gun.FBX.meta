@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: c1b253fec7a82094cbeb1d8870da25ff
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Cylinder001
+    100002: LP_Ammo
+    100004: LP_Ammo_Attach
+    100006: LP_Front_Scope_Strap
+    100008: LP_Gun_Body
+    100010: LP_Gun_Handle
+    100012: LP_Handle_Grip
+    100014: LP_Handle_Grip_Strap
+    100016: LP_Inner_Rails
+    100018: LP_Outer_Rails
+    100020: LP_Scope
+    100022: LP_Scope_Rail
+    100024: LP_Scope_Strap_Back
+    100026: //RootNode
+    400000: Cylinder001
+    400002: LP_Ammo
+    400004: LP_Ammo_Attach
+    400006: LP_Front_Scope_Strap
+    400008: LP_Gun_Body
+    400010: LP_Gun_Handle
+    400012: LP_Handle_Grip
+    400014: LP_Handle_Grip_Strap
+    400016: LP_Inner_Rails
+    400018: LP_Outer_Rails
+    400020: LP_Scope
+    400022: LP_Scope_Rail
+    400024: LP_Scope_Strap_Back
+    400026: //RootNode
+    2300000: Cylinder001
+    2300002: LP_Ammo
+    2300004: LP_Ammo_Attach
+    2300006: LP_Front_Scope_Strap
+    2300008: LP_Gun_Body
+    2300010: LP_Gun_Handle
+    2300012: LP_Handle_Grip
+    2300014: LP_Handle_Grip_Strap
+    2300016: LP_Inner_Rails
+    2300018: LP_Outer_Rails
+    2300020: LP_Scope
+    2300022: LP_Scope_Rail
+    2300024: LP_Scope_Strap_Back
+    3300000: Cylinder001
+    3300002: LP_Ammo
+    3300004: LP_Ammo_Attach
+    3300006: LP_Front_Scope_Strap
+    3300008: LP_Gun_Body
+    3300010: LP_Gun_Handle
+    3300012: LP_Handle_Grip
+    3300014: LP_Handle_Grip_Strap
+    3300016: LP_Inner_Rails
+    3300018: LP_Outer_Rails
+    3300020: LP_Scope
+    3300022: LP_Scope_Rail
+    3300024: LP_Scope_Strap_Back
+    4300000: Cylinder001
+    4300002: LP_Gun_Handle
+    4300004: LP_Outer_Rails
+    4300006: LP_Inner_Rails
+    4300008: LP_Handle_Grip
+    4300010: LP_Handle_Grip_Strap
+    4300012: LP_Front_Scope_Strap
+    4300014: LP_Scope_Strap_Back
+    4300016: LP_Scope_Rail
+    4300018: LP_Scope
+    4300020: LP_Gun_Body
+    4300022: LP_Ammo_Attach
+    4300024: LP_Ammo
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

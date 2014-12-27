@@ -1,0 +1,13 @@
+D:\Users\Colin\Documents\My Files\Home Projects\The Colony\The Colony Client\Temp\bin\Debug\UnityVS.The Colony Client.UnityScript.Plugins.dll
+D:\Users\Colin\Documents\My Files\Home Projects\The Colony\The Colony Client\Temp\bin\Debug\UnityVS.The Colony Client.UnityScript.Plugins.pdb
+D:\Users\Colin\Documents\My Files\Home Projects\The Colony\The Colony Client\Temp\bin\Debug\JsonFx.Json.dll
+D:\Users\Colin\Documents\My Files\Home Projects\The Colony\The Colony Client\Temp\bin\Debug\uLink.dll
+D:\Users\Colin\Documents\My Files\Home Projects\The Colony\The Colony Client\Temp\bin\Debug\UnityEditor.dll
+D:\Users\Colin\Documents\My Files\Home Projects\The Colony\The Colony Client\Temp\bin\Debug\UnityEngine.dll
+D:\Users\Colin\Documents\My Files\Home Projects\The Colony\The Colony Client\Temp\bin\Debug\Mono.Cecil.dll
+D:\Users\Colin\Documents\My Files\Home Projects\The Colony\The Colony Client\Temp\bin\Debug\nunit.framework.dll
+D:\Users\Colin\Documents\My Files\Home Projects\The Colony\The Colony Client\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\Users\Colin\Documents\My Files\Home Projects\The Colony\The Colony Client\Temp\bin\Debug\uLink.xml
+D:\Users\Colin\Documents\My Files\Home Projects\The Colony\The Colony Client\obj\Debug\UnityVS.The Colony Client.UnityScript.Plugins.unityprojResolveAssemblyReference.cache
+D:\Users\Colin\Documents\My Files\Home Projects\The Colony\The Colony Client\obj\Debug\UnityVS.The Colony Client.UnityScript.Plugins.dll
+D:\Users\Colin\Documents\My Files\Home Projects\The Colony\The Colony Client\obj\Debug\UnityVS.The Colony Client.UnityScript.Plugins.pdb

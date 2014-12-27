@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{56412410-376F-4903-875C-688C1EFD2A54}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>The_Colony_Proj</RootNamespace>
+    <AssemblyName>The-Colony-Proj</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="JsonFx.Json">
+      <HintPath>JsonFx.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RAINIndie">
+      <HintPath>RAIN\RAINIndie.dll</HintPath>
+    </Reference>
+    <Reference Include="Recast">
+      <HintPath>RAIN\Recast.dll</HintPath>
+    </Reference>
+    <Reference Include="uCollab">
+      <HintPath>uCollab\Editor\uCollab.dll</HintPath>
+    </Reference>
+    <Reference Include="uLink">
+      <HintPath>Plugins\uLink\Assembly\uLink.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>..\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+    <Folder Include="Scripts\Objects\Items\Weapons\" />
+    <Folder Include="Scripts\Game Logic\Chemistry Systems\Chemicals\" />
+    <Folder Include="Scripts\Objects\Items\Hand Items\Containers\" />
+    <Folder Include="Scripts\Objects\Items\Hand Items\Containers\FluidContainers\" />
+    <Folder Include="Scripts\Objects\Heavy Electronics\Science\" />
+    <Folder Include="Scripts\Objects\Heavy Electronics\Science\Chemistry\" />
+    <Folder Include="Scripts\Game Logic\Chemistry Systems\Chemicals\BaseChemicals\" />
+    <Folder Include="Scripts\Character Classes\Interfacing\" />
+    <Folder Include="Scripts\Objects\Heavy Electronics\Engineering\" />
+    <Folder Include="Scripts\Objects\Immobile Devices\" />
+    <Folder Include="Scripts\Objects\Items\Wearable Items\Head Items\" />
+    <Folder Include="Scripts\Objects\Items\Wearable Items\Leg Items\" />
+    <Folder Include="Scripts\Objects\Items\Wearable Items\Feet Items\" />
+    <Folder Include="Scripts\Objects\Items\Wearable Items\Wrist Items\" />
+    <Folder Include="Scripts\Objects\Items\Wearable Items\Belt Items\" />
+    <Folder Include="Scripts\Objects\Items\Wearable Items\Ex-Torso Items\" />
+    <Folder Include="Scripts\Game Logic\Disease Systems\" />
+    <Folder Include="Scripts\Game Logic\Disease Systems\Disease Symptoms\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RAIN\Editor\ScriptTemplates\ActionTemplate_BOO.boo" />
+    <None Include="RAIN\RAINIndieEULA.pdf" />
+    <None Include="RAIN\RAINVersion.bytes" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RAIN\Editor\RAINEditor.dll" />
+    <Content Include="RAIN\Editor\RecastEditor.dll" />
+    <Content Include="RAIN\Editor\ScriptTemplates\ActionTemplate_JS.js" />
+    <Content Include="RAIN\Editor\ScriptTemplates\BehaviorTreeTemplate.xml" />
+    <Content Include="RAIN\RAINIndie.dll" />
+    <Content Include="RAIN\Recast.dll" />
+    <Content Include="Scripts\Addons\CSI\CSharpInterpreter_Include.txt" />
+    <Content Include="uCollab\Editor\uCollab.dll" />
+    <Content Include="uCollab\Editor\uCollab.exe" />
+    <Content Include="uCollab\readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="RAIN\Editor\ScriptTemplates\ActionTemplate_CS.cs" />
+    <Compile Include="Scripts\Addons\ComboBox.cs" />
+    <Compile Include="Scripts\Addons\CSI\CSharpInterpreter.cs" />
+    <Compile Include="Scripts\Addons\CSI\interpreter.cs" />
+    <Compile Include="Scripts\Addons\CSI\prepro.cs" />
+    <Compile Include="Scripts\Addons\CSMessenger Extended\Callback.cs" />
+    <Compile Include="Scripts\Addons\CSMessenger Extended\Messenger.cs" />
+    <Compile Include="Scripts\Addons\DetectLeaks.cs" />
+    <Compile Include="Scripts\Addons\int2.cs" />
+    <Compile Include="Scripts\Addons\int3.cs" />
+    <Compile Include="Scripts\Addons\MeshOffset.cs" />
+    <Compile Include="Scripts\Addons\MirrorReflection.cs" />
+    <Compile Include="Scripts\Addons\Popup.cs" />
+    <Compile Include="Scripts\Addons\SQLite.cs" />
+    <Compile Include="Scripts\Addons\XMLCreate.cs" />
+    <Compile Include="Scripts\Character Classes\Base Classes\Attributes.cs" />
+    <Compile Include="Scripts\Character Classes\Base Classes\CharacterPhysicalAttributes.cs" />
+    <Compile Include="Scripts\Character Classes\Base Classes\CharacterVitals.cs" />
+    <Compile Include="Scripts\Character Classes\Base Classes\Inventory.cs" />
+    <Compile Include="Scripts\Character Classes\Base Classes\StoredPlayerPrefs.cs" />
+    <Compile Include="Scripts\Character Classes\BaseMob.cs" />
+    <Compile Include="Scripts\Character Classes\CameraFollow.cs" />
+    <Compile Include="Scripts\Character Classes\Character Roles\Assistant.cs" />
+    <Compile Include="Scripts\Character Classes\Character Roles\BaseJobs.cs" />
+    <Compile Include="Scripts\Character Classes\Character Roles\Captain.cs" />
+    <Compile Include="Scripts\Character Classes\DragMouseOrbit.cs" />
+    <Compile Include="Scripts\Character Classes\EnemyAI.cs" />
+    <Compile Include="Scripts\Character Classes\EnemyAttack.cs" />
+    <Compile Include="Scripts\Character Classes\EnemyHealth.cs" />
+    <Compile Include="Scripts\Character Classes\GeoTools.cs" />
+    <Compile Include="Scripts\Character Classes\Grenade.cs" />
+    <Compile Include="Scripts\Character Classes\PlayerCharacter.cs" />
+    <Compile Include="Scripts\Character Classes\PlayerHealth.cs" />
+    <Compile Include="Scripts\Character Classes\PlayerManager.cs" />
+    <Compile Include="Scripts\Game Logic\Game Databases\EngineeringData.cs" />
+    <Compile Include="Scripts\Game Logic\Game Databases\MedicalData.cs" />
+    <Compile Include="Scripts\Game Logic\Game Databases\MiningData.cs" />
+    <Compile Include="Scripts\Game Logic\Game Databases\QMData.cs" />
+    <Compile Include="Scripts\Game Logic\Game Databases\SecurityData.cs" />
+    <Compile Include="Scripts\Game Logic\Game Databases\StationData.cs" />
+    <Compile Include="Scripts\Game Logic\PlayerTracker.cs" />
+    <Compile Include="Scripts\Game Logic\SecurityStatus.cs" />
+    <Compile Include="Scripts\GUI\FontSheetGetter.cs" />
+    <Compile Include="Scripts\GUI\MainMenuUI.cs" />
+    <Compile Include="Scripts\GUI\ServerDebugUI.cs" />
+    <Compile Include="Scripts\Level Generation\GameMap.cs" />
+    <Compile Include="Scripts\Level Generation\GameSettings.cs" />
+    <Compile Include="Scripts\Level Generation\LevelEditor.cs" />
+    <Compile Include="Scripts\Level Generation\LoadMap.cs" />
+    <Compile Include="Scripts\Level Generation\MCBlob.cs" />
+    <Compile Include="Scripts\Level Generation\MCubes.cs" />
+    <Compile Include="Scripts\Level Generation\OctTree.cs" />
+    <Compile Include="Scripts\Level Generation\PangoWorld.cs" />
+    <Compile Include="Scripts\Level Generation\PopulateWorldObjects.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\CellData.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\DoorData.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\FloorData.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\Gases\C02.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\Gases\Plasma Gas.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\InteractionInfo.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\Liquids\Water.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\ObjectData.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\PowerData.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\WallData.cs" />
+    <Compile Include="Scripts\Level Generation\SimplexNoise.cs" />
+    <Compile Include="Scripts\Level Generation\World.cs" />
+    <Compile Include="Scripts\Networking\NetworkManager.cs" />
+    <Compile Include="Scripts\Objects\ConsoleScreen.cs" />
+    <Compile Include="Scripts\Objects\HeavyElectronic.cs" />
+    <Compile Include="Scripts\Objects\Heavy Electronics\Medical\SurgeryTable.cs" />
+    <Compile Include="Scripts\Objects\IRecipeStructure.cs" />
+    <Compile Include="Scripts\Objects\Items\BlankPaper.cs" />
+    <Compile Include="Scripts\Objects\Items\Crafting Items\MetalSheet.cs" />
+    <Compile Include="Scripts\Objects\Items\Crafting Items\Mined Items\IronOre.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\MiningPick.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Weapons\TaserGun.cs" />
+    <Compile Include="Scripts\Objects\Items\HandItems.cs" />
+    <Compile Include="Scripts\Objects\Items\IDBadge.cs" />
+    <Compile Include="Scripts\Objects\Item.cs" />
+    <Compile Include="Scripts\Objects\Items\Paper.cs" />
+    <Compile Include="Scripts\Objects\Items\Pen.cs" />
+    <Compile Include="Scripts\Objects\Items\Structure\MetalMesh.cs" />
+    <Compile Include="Scripts\Objects\Items\Wearable Items\Torso Items\BasicUniform.cs" />
+    <Compile Include="Scripts\Objects\Items\WearableItems.cs" />
+    <Compile Include="Scripts\Objects\Projectile.cs" />
+    <Compile Include="Scripts\Objects\RecipeStructure.cs" />
+    <Compile Include="Scripts\Objects\Heavy Electronics\Medical\CryoChamber.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\PDACard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\ATCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\AssistantCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\BartenderCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\BotanyCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\CaptainCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\ChaplainCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\ClownCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\ChefCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\QMCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\ChemistCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\CECard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\CMOCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\DetectiveCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\EngineerCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\GeneticstCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\HOPCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\HOSCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\JanitorCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\LawyerCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\LibrarianCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\MDCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\MinerCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\MimeCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\RDCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\RoboticistCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\SecurityCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\ScientistCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\VirologistCard.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\PDA Cards\WardenCard.cs" />
+    <Compile Include="Scripts\Objects\Heavy Electronics\Computers\BaseTerminal.cs" />
+    <Compile Include="Scripts\Objects\Heavy Electronics\Computers\BotanyTerminal.cs" />
+    <Compile Include="Scripts\Objects\Heavy Electronics\Computers\CaptainTerminal.cs" />
+    <Compile Include="Scripts\Objects\Heavy Electronics\Computers\EngineeringTerminal.cs" />
+    <Compile Include="Scripts\Objects\Heavy Electronics\Computers\GenericTerminal.cs" />
+    <Compile Include="Scripts\Objects\Heavy Electronics\Computers\MedicalTerminal.cs" />
+    <Compile Include="Scripts\Objects\Heavy Electronics\Computers\QMTerminal.cs" />
+    <Compile Include="Scripts\Objects\Heavy Electronics\Computers\ScienceTerminal.cs" />
+    <Compile Include="Scripts\Objects\Heavy Electronics\Computers\ShuttleTerminal.cs" />
+    <Compile Include="Scripts\Objects\Heavy Electronics\Computers\CTTerminal.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\QM Requisition Forms\SampleForm.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\QM Requisition Forms\QMRequisitionForms.cs" />
+    <Compile Include="Scripts\Game Logic\Chemistry Systems\ChemistryRecipes.cs" />
+    <Compile Include="Scripts\Game Logic\Chemistry Systems\Chemical.cs" />
+    <Compile Include="Scripts\Game Logic\Chemistry Systems\Chemicals\WaterChemical.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\Gases\HydrogenGas.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\Gases\OxygenGas.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Containers\FluidContainer.cs" />
+    <Compile Include="Scripts\Objects\Heavy Electronics\Science\Chemistry\ChemistryManipulator.cs" />
+    <Compile Include="Scripts\Game Logic\Chemistry Systems\Chemicals\BaseChemicals\Hydrogen.cs" />
+    <Compile Include="Scripts\Game Logic\Chemistry Systems\Chemicals\BaseChemicals\Oxygen.cs" />
+    <Compile Include="Scripts\Game Logic\Chemistry Systems\Chemicals\BaseChemicals\Copper.cs" />
+    <Compile Include="Scripts\Game Logic\Chemistry Systems\Chemicals\BaseChemicals\Nitrogen.cs" />
+    <Compile Include="Scripts\Game Logic\Chemistry Systems\Chemicals\BaseChemicals\Potassium.cs" />
+    <Compile Include="Scripts\Game Logic\Chemistry Systems\Chemicals\BaseChemicals\Mercury.cs" />
+    <Compile Include="Scripts\Game Logic\Chemistry Systems\Chemicals\BaseChemicals\Sulfur.cs" />
+    <Compile Include="Scripts\Game Logic\Chemistry Systems\Chemicals\BaseChemicals\BaseChemical.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\Gases\NitrogenGas.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\Gases\ChlorineGas.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Containers\FluidContainers\Beaker.cs" />
+    <Compile Include="Scripts\Game Logic\Blood.cs" />
+    <Compile Include="Scripts\Game Logic\DNA.cs" />
+    <Compile Include="Scripts\Addons\JSONGameMap.cs" />
+    <Compile Include="Scripts\Character Classes\Interfacing\AdvancedMovement.cs" />
+    <Compile Include="Scripts\Character Classes\Interfacing\CharacterMotor.cs" />
+    <Compile Include="Scripts\Character Classes\Interfacing\FPSInputController.cs" />
+    <Compile Include="Scripts\Character Classes\Interfacing\MouseLook.cs" />
+    <Compile Include="Scripts\Character Classes\Interfacing\PlayerInput.cs" />
+    <Compile Include="Scripts\Character Classes\Interfacing\PlayerLook.cs" />
+    <Compile Include="Scripts\Objects\Heavy Electronics\Engineering\ParticleEmitter.cs" />
+    <Compile Include="Scripts\Objects\Heavy Electronics\Engineering\ReactorCore.cs" />
+    <Compile Include="Scripts\Objects\Immobile Devices\PowerConsole.cs" />
+    <Compile Include="Scripts\Objects\Heavy Electronics\SMES.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\ObjectDataTracker.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\AtmosphericDataTracker.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\PowerDataTracker.cs" />
+    <Compile Include="Scripts\Game Logic\HeavyElectronicTracker.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\CellDataTracker.cs" />
+    <Compile Include="Scripts\Level Generation\Propagation Classes\CreatePowerGrid.cs" />
+    <Compile Include="Scripts\Objects\Items\Wearable Items\Belt Items\BeltItems.cs" />
+    <Compile Include="Scripts\Objects\Items\Wearable Items\Ex-Torso Items\ExTorsoItems.cs" />
+    <Compile Include="Scripts\Objects\Items\Wearable Items\Feet Items\FeetItems.cs" />
+    <Compile Include="Scripts\Objects\Items\Wearable Items\Head Items\HeadItems.cs" />
+    <Compile Include="Scripts\Objects\Items\Wearable Items\Leg Items\LegItems.cs" />
+    <Compile Include="Scripts\Objects\Items\Wearable Items\Wrist Items\WristItems.cs" />
+    <Compile Include="Scripts\Objects\Items\Wearable Items\Torso Items\TorsoItems.cs" />
+    <Compile Include="Scripts\Game Logic\Disease Systems\Symptom.cs" />
+    <Compile Include="Scripts\Game Logic\Disease Systems\Diseases\Alien Parasite.cs" />
+    <Compile Include="Scripts\Game Logic\Disease Systems\Diseases\Brain Rot.cs" />
+    <Compile Include="Scripts\Game Logic\Disease Systems\Diseases\Cold 9.cs" />
+    <Compile Include="Scripts\Game Logic\Disease Systems\Diseases\Flu.cs" />
+    <Compile Include="Scripts\Game Logic\Disease Systems\Diseases\GBS.cs" />
+    <Compile Include="Scripts\Game Logic\Disease Systems\Diseases\Jungle Fever.cs" />
+    <Compile Include="Scripts\Game Logic\Disease Systems\Diseases\Magnitis.cs" />
+    <Compile Include="Scripts\Game Logic\Disease Systems\Diseases\P Throat.cs" />
+    <Compile Include="Scripts\Game Logic\Disease Systems\Diseases\Rhinovirus.cs" />
+    <Compile Include="Scripts\Game Logic\Disease Systems\Diseases\Robot Trans.cs" />
+    <Compile Include="Scripts\Game Logic\Disease Systems\Diseases\S Flu.cs" />
+    <Compile Include="Scripts\Game Logic\Disease Systems\Diseases\Space Retro.cs" />
+    <Compile Include="Scripts\Game Logic\Disease Systems\Diseases\Wizarditus.cs" />
+    <Compile Include="Scripts\Game Logic\Disease Systems\Diseases\Xeno Trans.cs" />
+    <Compile Include="Scripts\Game Logic\Disease Systems\BaseDisease.cs" />
+    <Compile Include="Scripts\Networking\ManagePlayerCellData.cs" />
+    <Compile Include="Scripts\Objects\Items\Hand Items\Tools\EEToolKit.cs" />
+    <Compile Include="Scripts\Objects\Items\ElectronicDevice.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
